@@ -31,4 +31,4 @@ async def işik(ctx):
    
         await ctx.send(file=picture)
 
-bot.run("MTE0NDMyOTg3NDEzNjM3MTM0MQ.Gz40yG.siojUykz4hZqUE0GcTL4tiYSnzvwEe2QzAJfFs")
+bot.run("")
