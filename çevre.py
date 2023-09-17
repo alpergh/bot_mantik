@@ -31,4 +31,20 @@ async def işik(ctx):
    
         await ctx.send(file=picture)
 
+@bot.command()
+async def ses(ctx):
+    with open('images2/mem4.jpg', 'rb') as f:
+          
+        picture = discord.File(f)
+        
+    await ctx.send(file=picture)
+           
+@bot.command()
+async def helps(ctx):
+    with open('images2/mem5.jpg', 'rb') as f:
+          
+        picture = discord.File(f)
+          
+    await ctx.send(file=picture)        
+
 bot.run("")
